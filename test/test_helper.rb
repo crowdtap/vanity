@@ -15,8 +15,6 @@ require "lib/vanity"
 require "timecop"
 require "webmock/test_unit"
 
-
-
 if $VERBOSE
   $logger = Logger.new(STDOUT)
   $logger.level = Logger::DEBUG
