@@ -16,6 +16,7 @@ require "timecop"
 require "webmock/test_unit"
 
 
+
 if $VERBOSE
   $logger = Logger.new(STDOUT)
   $logger.level = Logger::DEBUG
@@ -116,7 +117,6 @@ class Array
     end
   end
 end
-
 
 # Source: http://gist.github.com/25455
 def context(*args, &block)
